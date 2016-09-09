@@ -35,15 +35,15 @@ public class QPayProgressDialog extends Dialog {
         dialog = builder.create();
         dialog.getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
 
-        WindowManager.LayoutParams lp = new WindowManager.LayoutParams();
-        lp.copyFrom(dialog.getWindow().getAttributes());
-        float density = context.getResources().getDisplayMetrics().density;
-        lp.width = (int) (420 * density);
-        lp.height = (int) (400 * density);
-        Window window = dialog.getWindow();
-        window.setLayout(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
-        window.setGravity(Gravity.CENTER);
-        dialog.getWindow().setAttributes(lp);
+//        WindowManager.LayoutParams lp = new WindowManager.LayoutParams();
+//        lp.copyFrom(dialog.getWindow().getAttributes());
+//        float density = context.getResources().getDisplayMetrics().density;
+//        lp.width = (int) (420 * density);
+//        lp.height = (int) (400 * density);
+//        Window window = dialog.getWindow();
+//        window.setLayout(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+//        window.setGravity(Gravity.CENTER);
+//        dialog.getWindow().setAttributes(lp);
     }
 
     public void show(){
